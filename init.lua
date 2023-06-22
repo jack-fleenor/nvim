@@ -1,0 +1,8 @@
+require("jack.plugins-setup")
+require("jack.plugins.transparent")
+require("jack.plugins.nvim-tree")
+require("jack.core.colorscheme")
+require("jack.core.options")
+require("jack.core.keymaps")
+require("catppuccin")
+require("jack.plugins.lualine")
