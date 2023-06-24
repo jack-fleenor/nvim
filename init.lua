@@ -1,5 +1,6 @@
 require("jack.plugins-setup")
 require("jack.plugins.transparent")
+require("jack.plugins.fugitive")
 require("jack.plugins.nvim-tree")
 require("jack.core.colorscheme")
 require("jack.core.options")
