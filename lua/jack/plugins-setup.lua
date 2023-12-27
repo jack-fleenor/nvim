@@ -32,7 +32,7 @@ return packer.startup(function(use)
   -- packer can manage itself
   use("wbthomason/packer.nvim")
   use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
-  use{ "catppuccin/nvim", as = "catppuccin" }
+
 
   use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
@@ -42,6 +42,10 @@ return packer.startup(function(use)
   use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
   use("inkarkat/vim-ReplaceWithRegister") -- replace with register contents using motion (gr + motion)
 
+  -- colorschemes
+  use{"ellisonleao/gruvbox.nvim", as = "gruvbox"}
+  use{ "catppuccin/nvim", as = "catppuccin" }
+  
   -- commenting with gc
   use("numToStr/Comment.nvim")
 
